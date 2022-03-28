@@ -1,0 +1,42 @@
+.card{
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0px 10px 10px 0px;
+  transition: 0.5%;
+  height: 250px;
+  text-align: center;
+  width: 13rem;
+}
+.card .card-title{
+  position: relative;
+  top: -20px; left: 70px;
+  font-size: 40px;
+  color: #FCBC02;
+}
+.card .card-subtitle{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.card .card-somme{
+  font-family: sans-serif;
+  margin-top: 61px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.card .card-somme>span{
+  font-size: 12px;
+  font-weight: 500;
+}
+.card .card-foot{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+
+/**********************/
+@media only screen and (max-width: 560px) {
+  .card{
+    width: auto;
+  }
+}

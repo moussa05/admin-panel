@@ -3,16 +3,23 @@
     <img src="./assets/logo.svg" alt="Company Logo" />
   </div>
   <mat-divider></mat-divider>
-  <h2 matSubheader class="mt-2">APPLICATIONS</h2>
 
   <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">
-    <mat-icon>home</mat-icon> Home
+    <mat-icon svgIcon="article" inline="true"></mat-icon> Gestion des articles
   </a>
   <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
-    <mat-icon>dashboard</mat-icon> Dashboard
+    <mat-icon svgIcon="vente" inline="true"></mat-icon> Gestion des ventes
   </a>
-  <a mat-list-item> <mat-icon>edit</mat-icon> Link 3 </a>
-  <a mat-list-item> <mat-icon>edit</mat-icon> Link 4 </a>
-  <a mat-list-item> <mat-icon>edit</mat-icon> Link 5 </a>
-  <a mat-list-item> <mat-icon>edit</mat-icon> Link 6 </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/transaction">
+    <mat-icon svgIcon="transaction" inline="true"></mat-icon> Transactions
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/magasin">
+    <mat-icon svgIcon="magasin" inline="true"></mat-icon> Gestion du Magasin
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/entreprise">
+    <mat-icon svgIcon="entreprise" inline="true"></mat-icon> Gestion de l’entreprise
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/entreprises">
+    <mat-icon svgIcon="entreprises" inline="true"></mat-icon> Gestion des entreprises
+  </a>
 </mat-nav-list>
